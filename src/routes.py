@@ -11,7 +11,7 @@ from src.handlers.review_handler import (
     aggiorna_commento
 )
 
-deliver_bp = Blueprint("deliver", __name__, url_prefix="/")
+deliver_bp = Blueprint("deliver", __name__, url_prefix="/deliver")
 
 
 @deliver_bp.route("/riders", methods=["GET"])
