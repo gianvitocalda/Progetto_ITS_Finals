@@ -5,7 +5,7 @@ load_dotenv()
 from data.start_database import inizializza_database
 from src.app import create_app
 
-PORT = os.getenv("DB_PORT", "5000")
+PORT = os.getenv("PORT", "5000")
 
 inizializza_database()
 
